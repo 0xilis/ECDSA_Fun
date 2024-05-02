@@ -21,7 +21,7 @@ max_m = m_times_s_mx / s
 
 if max_m > max:
   # We can't get max_m, but we can get max_k
-  max_k = ((max * s) - e) / R
+  max_k = ((max * s) - e) / r
   print("k MUST be smaller than: " + str(max_k))
 else:
   print("m MUST be smaller than: " + str(max_m))
